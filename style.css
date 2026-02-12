@@ -1,0 +1,64 @@
+/* Soft neutral palette with warm accents */
+:root {
+	--sand-50: #f8f5f1;
+	--sand-100: #efe9e2;
+	--sand-300: #d6cbbb;
+	--slate-700: #4b4a45;
+	--slate-900: #2f2e2a;
+	--terracotta-500: #c97852;
+	--honey-400: #d6a24a;
+	--sage-500: #7c8a6a;
+}
+
+body {
+	background-color: var(--sand-50);
+	color: var(--slate-900);
+}
+
+.navbar,
+footer {
+	background-color: var(--sand-100);
+}
+
+.card {
+	border-color: var(--sand-300);
+}
+
+.card-title {
+	color: var(--slate-900);
+}
+
+.card-text {
+	color: var(--slate-700);
+}
+
+.btn-primary {
+	background-color: var(--terracotta-500);
+	border-color: var(--terracotta-500);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: #b46845;
+	border-color: #b46845;
+}
+
+.btn-outline-primary {
+	color: var(--terracotta-500);
+	border-color: var(--terracotta-500);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+	background-color: var(--terracotta-500);
+	border-color: var(--terracotta-500);
+}
+
+a {
+	color: var(--sage-500);
+}
+
+a:hover,
+a:focus {
+	color: var(--honey-400);
+}
