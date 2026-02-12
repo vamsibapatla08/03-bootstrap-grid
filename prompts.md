@@ -5,4 +5,7 @@ Organize this page so that three vacation rentals appear in a row on larger scre
 Style the Welcome section and footer using Bootstrap and add more space around the grid content. Ensure that all columns take up equal height for better alignment.
 
 ## Prompt 3
+Add a bootstrap navbar with links to home, rentals, special deals, and contact. The navbar should extend the full browser width but its content should say inside the container. Place the nav links to the right side.
+
+## Prompt 4
 Generate a soft, neutral color palette with warm accent colors for a sleek and inviting design.

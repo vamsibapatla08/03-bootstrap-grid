@@ -10,14 +10,31 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-md bg-light border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="#">Offbeat Retreats</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNav"
+        aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="siteNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#rentals">Rentals</a></li>
+          <li class="nav-item"><a class="nav-link" href="#deals">Special Deals</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <main class="container py-5">
-    <header class="text-center mb-5">
+    <header class="text-center mb-5 p-4 p-md-5 bg-light border rounded-4 shadow-sm">
       <h1 class="display-5 fw-bold">Welcome to Offbeat Retreats!</h1>
       <p class="lead mb-3">Discover vacation rentals that are anything but ordinary.</p>
       <a class="btn btn-primary" href="#rentals">Explore Now</a>
     </header>
 
-    <section id="rentals" class="row g-4">
+    <section id="rentals" class="row g-4 g-lg-5 py-3 align-items-stretch">
       <div class="col-12 col-md-6 col-lg-4">
         <article class="card h-100">
           <div class="card-body">
@@ -86,7 +103,7 @@
     </section>
   </main>
 
-  <footer class="text-center py-4">
+  <footer class="text-center py-4 bg-light border-top">
     <small>&copy; 2025 Offbeat Retreats. All whimsical rights reserved.</small>
   </footer>
 </body>
